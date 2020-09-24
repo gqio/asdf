@@ -1,0 +1,29 @@
+{
+  "name": "reurope-reconciler",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "lodash-es": "4.17.15",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-reconciler": "0.25.1",
+    "react-scripts": "3.4.1",
+    "resize-observer-polyfill": "1.5.1",
+    "three": "0.116.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
