@@ -6,7 +6,7 @@ import './styles.css'
 
 function Test() {
   const [active, set] = useState(false)
-  useEffect(() => void setInterval(() => set(a => !a), 200), [])
+  useEffect(() => void setInterval(() => set((a) => !a), 200), [])
   return (
     <group>
       <mesh
